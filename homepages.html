@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Database</title>
+    <link rel="stylesheet" href="homepages.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="user-name">Hello</h1>
+      <h2>Input Your Data Below</h2>
+    </header>
+    <form>
+      <input type="text" id="userInputName" placeholder="Nama" />
+      <input type="text" id="userInputUmur" placeholder="Umur" />
+      <input type="text" id="userInputEmail" placeholder="Email" />
+      <button class="add-user-data" type="button" onclick="">
+        Tambah Data
+      </button>
+    </form>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Email</th>
+            <th>Tombol Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mark</td>
+            <td>20</td>
+            <td>markzucciceberg@gmail.com</td>
+            <td>
+              <button class="edit" type="button" onclick="">Edit</button>
+              <button class="delete" type="button" onclick="">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>25</td>
+            <td>michaelmekdonal@gmail.com</td>
+            <td>
+              <button class="edit" type="button" onclick="">Edit</button>
+              <button class="delete" type="button" onclick="">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Rey</td>
+            <td>30</td>
+            <td>reyreyreynaldi@gmail.com</td>
+            <td>
+              <button class="edit" type="button" onclick="">Edit</button>
+              <button class="delete" type="button" onclick="">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="homepages.html"></script>
+  </body>
+</html>

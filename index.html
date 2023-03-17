@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Login Pages</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Sign In</h1>
+      <form class="form-input">
+        <div class="email-input">
+          <h2>Email</h2>
+          <input type="email" id="email" class="email" name="email" />
+        </div>
+        <div class="password-input">
+          <h2>Password</h2>
+          <input
+            type="password"
+            id="password"
+            class="password"
+            name="password"
+          />
+        </div>
+        <div
+          type="submit"
+          class="button-login"
+          id="button-login-signup"
+          onclick="loginPage()"
+        >
+          <span>Login</span>
+        </div>
+        <!-- <button
+          type="submit"
+          class="button-login"
+          id="button-login-signin"
+          onclick="loginPage()"
+        >
+          Login
+        </button> -->
+        <div class="daftar-disini">
+          Belum punya akun?? <a href="register.html">Daftar Disini</a>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
