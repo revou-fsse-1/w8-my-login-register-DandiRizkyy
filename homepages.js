@@ -3,6 +3,8 @@ let data = [
   { name: "Mark", age: 20, email: "markzucciceberg@gmail.com" },
   { name: "Michael", age: 25, email: "michaelmekdonal@gmail.com" },
   { name: "Rey", age: 30, email: "reyreyreyreynaldi@gmail.com" },
+  { name: "Nube", age: 17, email: "nubecoolbangetz@gmail.com" },
+  { name: "Aang", age: 50, email: "anggihthedragracer@gmail.com" },
 ];
 
 // menampilkan data didalam tabel
