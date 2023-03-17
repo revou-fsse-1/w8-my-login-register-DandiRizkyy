@@ -58,3 +58,8 @@ function editUserData(userData) {
   data[userData] = { name: name, age: age, email: email };
   showUserData();
 }
+
+// menampilkan data dummy didalam js script ketika load page, karena jika load data user default dari html maka akan terjadi bug di edit feature.
+window.onload = () => {
+  showUserData();
+};
