@@ -10,4 +10,4 @@ For this week assignment, i'm creating a login, register and homepage pages with
 
 ## Links 🔗
 
-Week 8 Assignment Links : [Click Me 🙀](dandi-week8.netlify.app/)
+Week 8 Assignment Links : [Click Me 🙀](https://dandi-week8.netlify.app/index.html)
