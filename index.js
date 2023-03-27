@@ -1,7 +1,7 @@
 //set akun default
 const getLocalStorageData = localStorage.getItem("data");
 const userData = JSON.parse(getLocalStorageData) || [
-  { id: "1", email: "admin@gmail.com", password: "Admin123" },
+  { id: 1, email: "admin@gmail.com", password: "Admin123" },
 ];
 
 //fungsi registrasi
