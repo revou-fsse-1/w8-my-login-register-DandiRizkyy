@@ -34,7 +34,7 @@ function registerPage() {
     alert("Minimal 1 Lowercase Didalam Password");
   } else if (checkAccount === undefined) {
     userData.push({
-      id: userData.lenght + 1,
+      id: userData.length + 1,
       email: userEmail,
       password: userPassword,
     });
